@@ -1,0 +1,19 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<h1>⚔️ 勇者の Blazor アプリ ⚔️</h1>
+
+<p>ようこそ、Azure App Service の世界へ！</p>
+
+<button class="btn btn-primary" @onclick="Increment">
+    クリックした回数: @count
+</button>
+
+@code {
+    private int count = 0;
+
+    void Increment()
+    {
+        count++;
+    }
+}

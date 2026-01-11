@@ -1,0 +1,72 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# ASP.NET / Blazor
+# =========================
+wwwroot/
+wwwroot/_framework/
+wwwroot/service-worker.js
+wwwroot/service-worker.published.js
+
+# Publish output
+publish/
+app.publish/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+appsettings.Development.json
+appsettings.*.json
+secrets.json
+
+# =========================
+# Azure / Deployment
+# =========================
+*.PublishSettings
+.azure/
+
+# =========================
+# Node (もし混ざったら)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# Test results
+# =========================
+TestResults/
+
+# =========================
+# Backup files
+# =========================
+*.bak
+*.tmp
+*.swp
+
