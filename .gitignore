@@ -18,7 +18,6 @@ obj/
 # =========================
 # ASP.NET / Blazor
 # =========================
-wwwroot/
 wwwroot/_framework/
 wwwroot/service-worker.js
 wwwroot/service-worker.published.js
